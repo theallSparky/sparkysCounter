@@ -58,3 +58,11 @@ h1 {
 .increase:hover {
   border: 2px solid lime;
 }
+
+.decrease:hover {
+  border: 2px solid red;
+}
+
+.reset:hover {
+  border: 2px solid orange;
+}
