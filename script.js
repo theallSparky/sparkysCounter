@@ -9,6 +9,12 @@ btn.forEach(function (btn) {
     if (styles.contains("increase")) {
       count++;
     }
+    if (styles.contains("decrease")) {
+      count--;
+    }
+    if (styles.contains("reset")) {
+      count = 0;
+    }
     value.textContent = count;
   });
 });
